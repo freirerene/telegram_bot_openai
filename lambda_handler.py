@@ -57,4 +57,4 @@ def chat_gpt(message):
     )
 
     response = response['choices'][0]['message']['content']
-    bot.reply_to(message, parse_mode='markdown', response)
+    bot.reply_to(message, response, parse_mode='markdown')
