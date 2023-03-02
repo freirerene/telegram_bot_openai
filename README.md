@@ -3,6 +3,8 @@
 This is a trivial implementation of the OpenAI API in a telegram bot -- so the bot becomes an interface
 to the ChatGPT.
 
+The decorator `private_access` is implemented so that your OpenAI tokens are not easily exploited.
+
 The new model `gpt-3.5-turbo` the powers ChatGPT is now available as an API, and is much cheaper than the previous
 most powerful model from OpenAI.
 
